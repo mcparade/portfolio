@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drawings</title>
+  <meta name="description" content="A portfolio of drawings.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 id="artist-name">Drawings</h1>
+    <p id="tagline" class="tagline"></p>
+    <nav id="filters" class="filters" aria-label="Filter by series"></nav>
+  </header>
+
+  <main>
+    <ul id="gallery" class="gallery"></ul>
+  </main>
+
+  <footer class="site-footer">
+    <p id="about" class="about"></p>
+    <p id="contact" class="contact"></p>
+    <p class="copyright">&copy; <span id="year"></span> <span id="footer-name"></span>. All rights reserved.</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Drawing viewer">
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-prev" aria-label="Previous">&#8249;</button>
+    <figure>
+      <img id="lb-img" alt="">
+      <figcaption>
+        <span id="lb-title" class="lb-title"></span>
+        <span id="lb-meta" class="lb-meta"></span>
+      </figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next">&#8250;</button>
+  </div>
+
+  <script src="drawings.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
