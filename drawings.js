@@ -3,7 +3,7 @@
 // "series" is used for the filter buttons at the top of the page.
 
 window.PORTFOLIO = {
-  artist: "Haesik Kim",
+  artist: "Hannah Kim",
   tagline: "Drawings in graphite, ink, and charcoal",
   about: "I draw people, places, and the small things I notice along the way.",
   email: "jashskim@gmail.com",
